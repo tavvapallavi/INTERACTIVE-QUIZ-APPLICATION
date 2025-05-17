@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  width:100%;
+  height:100vh;
+  background: linear-gradient(to right bottom,rgb(9, 9, 94),rgb(2, 107, 2));
+  color: aqua;
+  display: grid;
+  place-items: center;
+}
+.container1{
+  padding: 35px;
+  font-size: 30px;
+  position: relative; top:50px;
+
+}
+.container{
+  max-width: 880px;
+  padding: 50px;
+  text-align: center;
+  display: none;
+}
+.container .question{
+  padding-top: 35px;
+  font-size: 35px;
+  color:gold;
+  
+}
+.container .choices{
+  margin-top: 20px;
+  color:rgb(136, 95, 20);
+}
+.choice{
+  font-size: 25px;
+  background-color: beige;
+  margin:10px auto;
+  width: 60%;
+  border-radius: 10px;
+  }
+  .btn{
+    width: 40%;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(100, 51, 51);
+    border: none;
+    cursor: pointer;
+
+  }
+  .choice:hover{
+    background-color: bisque;
+  }
+  .btn:hover{
+    background-color: rgb(212, 34, 34);
+  }
+  .choice.selected{
+    background-color: rgb(158, 140, 184);
+  }
+  .scoreCard{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+.alert{
+  background-color: rgb(80, 91, 84);
+  width:100%;
+  padding: 10px;
+  font-size:30px ;
+  display:none;
+  text-align: center;
+}
+.startbtn{
+  width:16%;
+  padding:20px;
+background-color: rgb(230, 27, 9);
+text-align:center;
+position:relative;
+bottom:150px;
+
+}
